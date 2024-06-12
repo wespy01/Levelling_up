@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 50px;
+    background-color: #212121;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    height: 85vh;
+    display: grid;
+    place-content: center;
+    background-image: url(../images/Leaves_Bg.jpg);
+    background-repeat: inherit;
+    background-blend-mode: color-dodge;
+    background-size: 100%;
+}
+
+h2 {
+    font-weight: 900;
+    font-size: 72px;
+    text-shadow: -5px 5px BLUEVIOLET, -7px 8px hotpink;
+}
+
+input {
+    height: 50px;
+    width: 500px;
+    border-radius: 8px;
+    padding: 12px;
+    outline: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+input::placeholder {
+    font-family: inherit;
+    font-weight: 200;
+}
+
+input.age[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.name-tag {
+    text-transform: uppercase;
+    font-size: 56px;
+    font-weight: 600;
+    color: #66fcf1;
+    text-shadow: -3px 4px rgb(172, 42, 107);
+}
+
+.age-tag {
+    font-weight: 500;
+    font-size: 40px;
+    color: #66fcf1;
+    text-shadow: -3px 4px rgb(172, 42, 107);
+}
