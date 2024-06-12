@@ -1,6 +1,6 @@
-# Personal Projects
+# Levelling-Up Projects
 
-These are some of my personal web-dev projects to demonstrate my understanding of HTML, CSS & Javascript
+These are some of my levelling up web-dev projects to demonstrate my understanding of HTML, CSS & Javascript
 
 ### 1.) IPL 2023 Orange Cap Table
 - In this I have tried to make a replica of the 2023 IPL top run scorer's table.
